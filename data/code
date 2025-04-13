@@ -1,0 +1,16 @@
+import pandas as pd
+from src.validator import validate_columns, validate_dtypes
+from src.visualizer import plot_missing_data
+
+# Load data
+df = pd.read_csv("data/sample.csv")
+
+# Define expected schema
+required_columns = {"id": int, "name": str, "age": int, "email": str}
+
+# Run validations
+validate_columns(df, required_columns)
+validate_dtypes(df, required_columns)
+
+# Show missing data chart
+plot_missing_data(df)
