@@ -1,6 +1,4 @@
 # data-quality-checker
-A Python script that validates CSV data, logs anomalies, and visualizes missing data.
-# data-quality-checker
 
 A Python script that validates CSV data, logs anomalies, and visualizes missing data.
 
@@ -18,3 +16,11 @@ In the terminal inside Codespaces, run:
 
 ```bash
 pip install -r requirements.txt
+
+### 3. Run the Script
+
+After installing dependencies, run the following command:
+
+```bash
+python main.py
+
