@@ -4,7 +4,7 @@ A Python script that validates CSV data, logs anomalies, and visualizes missing 
 
 ---
 
-## 🚀 Getting Started in GitHub Codespaces
+##  Getting Started in GitHub Codespaces
 
 ### 1. Open Your Codespace
 - Navigate to your GitHub repository.
